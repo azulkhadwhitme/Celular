@@ -1,0 +1,114 @@
+body, html {
+    background:url(../img/fon.png)  center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.container {
+    background-color: #2e2d2d;
+    display: flex;
+    justify-content: center;
+    
+    height: 90vh;
+    margin: auto;
+}
+
+.TextConainer {
+    color: #333;
+    transition: transform 0.2s;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    height: auto;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img
+{
+width: 50%;
+height: auto;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.nonav {
+    background-color: #2e2d2d;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nonav ul {
+    list-style: none;
+    padding: 0;
+    height: auto;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+/* Estilos generales del formulario */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Estilos de las etiquetas */
+label {
+    color:#0056b3;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos de los campos de entrada */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo del botón de envío */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
